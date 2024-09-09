@@ -1,0 +1,77 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 275px;
+  background-color: #172031; /* Dark background to match existing theme */
+  color: #d7d9db;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.user-profile {
+  width: 100%;
+  margin-bottom: 30px; /* Space between profile and menu */
+}
+
+.profile-label {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px; /* Space between label and box */
+}
+
+.user-info-box {
+  border: 2px solid white; /* White border for the box */
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.username {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 26px; /* Prominent username */
+  margin-bottom: 5px;
+}
+
+.user-domain {
+  color: #b0b0b0; /* Lighter color for user domain */
+  font-size: 18px;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-evenly; /* Evenly distribute items vertically */
+  width: 100%;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar-item {
+  background-color: #007bff; /* Background color for options */
+  color: #fff; /* Text color */
+  padding: 20px;
+  margin: 10vh 0px; /* Space between input fields */
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center; /* Center text horizontally */
+}
+
+.sidebar-item.active {
+  background-color: #0056b3; /* Darker color for active state */
+}
+
+.sidebar-item:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}

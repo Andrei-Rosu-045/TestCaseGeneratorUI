@@ -1,0 +1,52 @@
+/* src/components/ProjectNameCard.css */
+/* Assuming you have Card.css to handle .custom-card styles */
+
+.custom-card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+.custom-card .card-header {
+  background-color: #172031;
+  color: #d7d9db;
+  border-radius: 10px 10px 0 0;
+}
+
+.custom-card .card-body {
+  background-color: #e9ecef;
+  padding: 20px;
+}
+
+.custom-card .form-label {
+  font-weight: bold;
+}
+
+.custom-card .form-control {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.custom-card .form-group {
+  margin-bottom: 20px;
+}
+
+.custom-card .btn {
+  margin-top: 10px;
+}
+
+.custom-card .form-group .text-center {
+  text-align: center;
+}
+
+.custom-card .form-group p {
+  margin: 10px 0;
+}
+
+.custom-card .form-group strong {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Additional styles if needed */

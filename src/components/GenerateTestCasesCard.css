@@ -1,0 +1,97 @@
+/* src/components/GenerateTestCasesCard.css */
+ 
+/* General grid container styles */
+.grid-container {
+  display: grid;
+  gap: 20px; /* Space between grid items */
+  padding: 20px; /* Padding inside the grid container */
+  background-color: #f8f9fa; /* Light background color for visibility */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+ 
+/* Specific styles for the first row (file type and upload section) */
+.grid-container.first-row {
+  grid-template-columns: 1fr 2fr; /* Two-column grid */
+  border: 2px solid #ced4da; /* Border around the entire container */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+}
+ 
+/* Outlines for individual items in the first row */
+.file-type,
+.file-upload {
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 8px; /* Rounded corners for items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid #dee2e6; /* Light border around items */
+  padding: 15px; /* Padding inside each item */
+}
+ 
+/* Specific styles for the second row (questions) */
+.grid-container.second-row {
+  grid-template-columns: repeat(3, 1fr); /* Three-column grid */
+  border: none; /* Remove blue border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+}
+ 
+/* Individual question items in the second row */
+.question {
+  border: none; /* No border for individual items */
+}
+ 
+/* Drag-and-drop area styling */
+.drop-zone {
+  border: 2px dashed #ced4da; /* Dashed border for the drop zone */
+  padding: 20px; /* Space inside the drop zone */
+  text-align: center; /* Center the text */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px; /* Rounded corners */
+}
+ 
+.drop-zone:hover {
+  background-color: #e9ecef; /* Slightly darker background on hover */
+}
+ 
+.file-input {
+  display: none; /* Hide the default file input */
+}
+ 
+.short-dropdown {
+  max-width: 200px; /* Shorten the dropdown width */
+}
+ 
+.upload-btn {
+  width: 100%; /* Ensures button stretches to fill container */
+}
+ 
+.generate-button {
+  width: 9vw; /* Set width to 40% */
+  height: 5vh;
+}
+ 
+.form-group {
+  margin-bottom: 20px; /* Adds space between form groups */
+}
+ 
+.form-group .form-label {
+  margin-bottom: 10px; /* Adds space between labels and dropdowns */
+}
+
+.generate-btn {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+#notesGenerateTestCases {
+  height: 20vh;
+}
+.selected-file {
+  color: green;
+}

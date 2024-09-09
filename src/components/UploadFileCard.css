@@ -1,0 +1,59 @@
+.custom-dropdown .dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left; /* Align the text to the left */
+  padding-right: 1.5rem; /* Ensure padding for the arrow */
+  background-color: white;
+  color: black;
+}
+
+#upload-title {
+  font-weight: bold;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+  margin-left: auto; /* Move the arrow to the far right */
+  margin-right: 0.5rem; /* Add some spacing between the arrow and the edge */
+}
+
+.custom-dropdown .dropdown-menu {
+  width: 100%;
+  min-width: unset;
+}
+
+.custom-dropdown .dropdown-item {
+  width: 100%;
+}
+
+.file-upload-btn {
+  color: #172031;
+  border-color: #172031;
+}
+
+.upload-btn:hover {
+  background-color: #172031;
+  border-color: #172031;
+  color: white;
+}
+
+.file-limit-text {
+  font-size: 0.85rem; /* Smaller text */
+  color: rgba(0, 0, 0, 0.5); /* Semi-transparent text */
+  margin-top: -10px; /* Adjust spacing if needed */
+  margin-bottom: 20px; /* Adjust spacing if needed */
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#upload-btn {
+background-color: green;
+color: whitesmoke;
+border: #172031;
+border-color: black;
+}

@@ -1,0 +1,51 @@
+/* src/components/Card.css */
+
+.custom-card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+.custom-card .card-header {
+  background-color: #172031;
+  color: #d7d9db;
+  border-radius: 10px 10px 0 0;
+}
+
+.custom-card .card-body {
+  background-color: #e5e5e5;
+  padding: 20px;
+}
+
+.custom-card .form-label {
+  font-weight: bold;
+}
+
+.custom-card .form-control {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+}
+
+.custom-card .form-group {
+  margin-bottom: 20px;
+}
+
+.custom-card .btn {
+  margin-top: 10px;
+}
+
+.custom-card .form-group .text-center {
+  text-align: center;
+}
+
+.custom-card .form-group p {
+  margin: 10px 0;
+}
+
+.custom-card .form-group strong {
+  display: block;
+  margin-top: 10px;
+}

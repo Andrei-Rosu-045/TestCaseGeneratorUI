@@ -1,0 +1,66 @@
+.header {
+  background-color: #8490a9;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px; /* Increased padding for a thicker header */
+}
+ 
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+ 
+.logo {
+  height: 35px; /* Adjust the height to make the logo smaller */
+}
+ 
+.header-title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 35px; /* Adjusted for better readability */
+  margin: 0; /* Reset margin */
+  font-weight: bold;
+  color: whitesmoke;
+}
+ 
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+ 
+.header-buttons .btn {
+  margin-left: 10px;
+}
+ 
+.header-buttons .btn-outline-secondary {
+  border: none;
+  color: white;
+}
+ 
+.header-buttons .btn-outline-secondary:hover {
+  background-color: rgba(148, 139, 139, 0.1);
+}
+ 
+.deploy-button {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+}
+ 
+.deploy-button:hover {
+  background-color: darkgray;
+  border-color: darkgray;
+}
+ 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 18px; /* Smaller font size for smaller screens */
+  }
+ 
+  .header-buttons .btn {
+    font-size: 14px; /* Adjust button font size */
+  }
+}
